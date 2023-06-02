@@ -3,8 +3,8 @@ import { data } from "@/data/data";
 const Skills = () => {
     return (
         <section id="Skills" className="flex flex-col mt-6">
-            <h1 className="text-xl font-semibold">Skills</h1>
-            <div className="flex flex-col space-y-4 mt-4">
+            <h1 className="text-xl font-semibold border-b-4 border-orange-500 w-max">Skills</h1>
+            <div className="flex flex-col space-y-2 mt-4">
                 <div id="Languages" className="flex flex-col space-y-2">
                     <h3 className="text-md font-semibold">Languages</h3>
                     <div className="flex flex-wrap">
